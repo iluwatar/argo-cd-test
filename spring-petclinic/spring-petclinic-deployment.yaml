@@ -18,3 +18,5 @@ spec:
         name: spring-petclinic
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+        - name: spring-petclinic-registry-credentials
